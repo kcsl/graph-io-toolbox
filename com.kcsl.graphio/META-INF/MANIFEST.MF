@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Graphio
+Bundle-SymbolicName: com.kcsl.graphio;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.kcsl.graphio.Activator
+Bundle-Vendor: KCSL
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.ensoftcorp.atlas.core;bundle-version="3.3.8",
+ com.ensoftcorp.open.commons;bundle-version="3.3.8"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: com.kcsl.graphio
+Bundle-ActivationPolicy: lazy
